@@ -6,10 +6,12 @@
 /*------------------BODY----------------*/
 body {
     height: 100%;
-    background: linear-gradient(to right, #859398, #283048);
+    
     padding: 10px;
 }
 /*----------------BODY CIERRE-----------*/
+/*----------------- INICIO NAV--------- */
+
 img ul{
     height: 100px;
     padding:10px 10px 10px 10px;
@@ -40,9 +42,6 @@ li{
     height: 100px;
 }
 
-
-
-
 .button{
     background-color: rgba(200, 230, 171, 0.984);
     display: flex;
@@ -56,7 +55,7 @@ li{
 .enlaces-menu li:hover{
     background-color: rgba(88, 88, 155, 0.13);
 }
-
+/*---------------FIN DE NAV ----------------*/
     
 
     
@@ -64,29 +63,28 @@ li{
 
 @media (max-width: 680px){
 
- header{
+    #intro{
+        width: 90% !important;
+    }
+        .servicio-fila{
+            width: 100% !important;
+            text-align: center;
+        }
+    header{
     flex-direction: column;
     }
 }
-
-.sub-titulo{
-    background-color: rgba(66, 66, 170, 0.17);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nav-item{
+    list-style: none;
+}
+.icon1{
+    background-color: blueviolet;
+    width: 60px;
+    height: 60px;
+    position:relative ;
 }
     
-.item{
-    width: 100%;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    padding-top: 20px;
-    list-style-type: none;
-    background-color: rgba(0, 255, 17, 0.452);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
-    font-size: 1.2rem;
-}
+
 /*-------------------Carrousel---------*/
 
 
