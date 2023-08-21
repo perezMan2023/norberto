@@ -1,4 +1,4 @@
-const btnLeft = document.querySelector(".btn-left"),
+/* const btnLeft = document.querySelector(".btn-left"),
       btnRight = document.querySelector(".btn-right"),
       slider = document.querySelector("#slider"),
       sliderSection = document.querySelectorAll(".slider-section");
@@ -45,4 +45,4 @@ function moveToLeft() {
     slider.style.transition = "all ease .6s"
     
     
-}   
+}    */

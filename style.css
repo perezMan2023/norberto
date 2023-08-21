@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.6em;
 }
 /*------------------BODY----------------*/
 body {
@@ -66,26 +67,14 @@ li{
     
 /*------------MEDIA QUERY-----------*/
 
-@media (max-width: 680px){
 
-    #intro{
-        width: 90% !important;
-    }
-        .servicio-fila{
-            width: 100% !important;
-            text-align: center;
-        }
-    header{
-    flex-direction: row;
-    }
-}
+
 .nav-item{
-    list-style: none;
+    
+   
+    list-style-type: none;
     padding-top: 30px;
     font-family:'Lucida Sans Regular', 'Lucida Grande';
     align-items: center;
-    margin: auto;
-    
     
 }
-
