@@ -1,80 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 1.6em;
-}
-/*------------------BODY----------------*/
-body {
-    font: 1rem/1.5 var(--bs-font-sans-serif);
-  }
-  a {
-    color: var(--bs-blue);
-  }
-/*----------------BODY CIERRE-----------*/
 
-/*----------------- INICIO NAV--------- */
-
- .nav{
-    display:flex;
-    justify-content:left;
-    align-items: center;
-    background-color: rgba(255, 255, 254, 0.778);
-    min-height: 70px;
-    font-size: 1.3rem;
-}  
-.nav ul{
-    list-style: none;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    padding: 10px 20px 10px 20px;
-    
-}
-li{
-    padding: 10px;
-    height: 100px;
-    font-weight: 600;
-}
-
-.button-whats{
-    display: flex;
-    height: 100px;
-    padding:auto;
-    margin-top: 25px;
-    font-weight: 600;
-    
-}
-
-.button{
-    background-color: rgba(86, 230, 84, 0.337);
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    width: 170px;
-    height: 40px;
-    font-weight: bold;
-    border-radius: 50px;
 }
 
 
-.enlaces-menu li:hover{
-    background-color: rgba(197, 173, 39, 0.13);
-}
-/*---------------FIN DE NAV ----------------*/
-    
-
-    
-/*------------MEDIA QUERY-----------*/
-
-
-
-.nav-item{
-    
    
-    list-style-type: none;
-    padding-top: 30px;
-    font-family:'Lucida Sans Regular', 'Lucida Grande';
-    align-items: center;
-    
-}
+   
