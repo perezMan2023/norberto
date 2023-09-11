@@ -1,0 +1,25 @@
+
+
+.logo img{
+    border:black 3px solid;
+    border-radius: 30px;
+    
+    
+}
+
+#container-fluid{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(233, 227, 227);
+    height: 70px;
+    align-items: center;
+    background-color: aqua;
+}
+.nav-anclas{
+   
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    margin-left: 0px;
+}
+
