@@ -1,25 +1,58 @@
 
-
-.logo img{
-    border:black 3px solid;
-    border-radius: 30px;
-    
-    
-}
-
-#container-fluid{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(233, 227, 227);
-    height: 70px;
+.container-fluid{ 
+    display:flex;
+    justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    height: 150px;
+    width: 100%;
+    margin: 0px 50px;
+    padding: 0px 30px;   
 }
 .nav-anclas{
-   
     display: flex;
-    justify-content:space-around;
-    text-align: center;
-    margin-left: 0px;
+    justify-content: space-around;
+}
+.nav-anclas a{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size:1.3em;
+    font-weight: 600;
+    text-decoration: none;
+    gap:10px;
+}
+.nav-anclas p{
+    position: relative;
+    left:-80px;
+    padding-top:90px;
+}
+#nueve-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(174, 234, 22);
+    color: white;
+}
+#nueve-items a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.button-whats img{
+    width: 100px;
+    height: 100px;
+    
+}
+.button-whats img a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media(max-width: 768px){
+    
+        
+    
 }
 
